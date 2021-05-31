@@ -42,7 +42,7 @@
 
         body {
             margin: 0;
-            background: transparent radial-gradient(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), #00000042, #fff) no-repeat 0 0;
+            background: transparent radial-gradient(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), #fff, #00000042) no-repeat 0 0;
         }
 
         img {
@@ -261,18 +261,7 @@
 
         .l-Section+.l-Section {
             position: relative;
-            border-top: 1px solid #ddd;
             margin-right: 3.4rem
-        }
-
-        .l-Section+.l-Section:before {
-            content: "";
-            font-size: 50px;
-            font-size: 8vw;
-            position: absolute;
-            top: -.1rem;
-            border-top: .153em solid;
-            width: 4rem
         }
 
         .l-Section-title, .l-Section-content {
