@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Groupo";
+    src: url(fonts/Gruppo-Regular.ttf);
+}
+@keyframes animate {
+    from{width:58%;}
+}
+
+.html {width: 90%; background-color: #04AA6D;} 
+.css {width: 80%; background-color: #2196F3;} 
+.java {width: 70%; background-color: #bb7ec4;} 
+.js {width: 50%; background-color: #f44336;} 
+.php {width: 70%; background-color: #c7c433;} 
+.db {width: 50%; background-color: #a05415;} 
+.framework {width: 60%; background-color: #1c2953;} 
+.office {width: 90%; background-color: #808080;} 
+
+.container span {
+    float:inline-start;
+    padding-top: 7px;
+    padding-left: 10px;
+    color: black;
+    font-family: "Groupo";
+}
+.container {
+    float: left;
+    background-color: #ddd; 
+    border-radius: 10px;
+    margin-bottom: 7px; 
+}
+.container:hover {
+      scale: 1.05;
+      transition: all 1s ease-in-out;
+}
+.skills {
+    animation: animate 4s;
+    text-align: right; 
+    padding-top: 7px; 
+    padding-bottom: 7px; 
+    color: white; 
+    border-radius: 7px;
+    padding-right: 7px; 
+}
+#one ul li {
+    padding-left: 0;
+    list-style: none;
+}
+#one ul {
+    display: block;
+    height: 400px;
+}
