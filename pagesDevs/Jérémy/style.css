@@ -46,8 +46,8 @@ body {
 
   .parallax {
   
-    background-image: url("img/montagnes.jpg");
-    opacity: 0.5;
+    background-image: url("img/table.jpg");
+    opacity: 0.8;
   
     /* Set a specific height */
     min-height: 400px;
@@ -60,9 +60,26 @@ body {
     text-align: center;
   }
 
-  .parallax {
+  .leh2 {
       text-align: center;
-      padding-top: 30px;
+      padding-top: 75px;
+      font-size: 40px;
+      color: white; 
+  }
+
+  h2 {
+      display: inline-block;
+      border-bottom: solid 2px white;
+      padding: 5px  ;
+      border-width: 4px;
+      
+  }
+
+  .parallax > p {
+      font-style: italic;
+      font-size: 40px;
+      color: white;
+      margin-top: 20px;
   }
 
 
