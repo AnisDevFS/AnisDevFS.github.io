@@ -1,9 +1,15 @@
 /* GENERAL */
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
     margin: 0;
     background-image: url(img/wood.webp);
     background-size: cover;
+}
+@font-face {
+    font-family: "mypolice";
+    src: url(Qualy\ Bold.ttf);
 }
 /* PREMIERE DIV FLEX */
 #flex {
@@ -77,6 +83,10 @@ button:hover {
     background-color: rgb(25, 55, 223);
 }
 address {
-    margin-top: 25%;
+    margin-top: 20%;
     font-size: 2em;
+    font-style: normal;
+}
+h2, h3 {
+    font-family: "mypolice";
 }
