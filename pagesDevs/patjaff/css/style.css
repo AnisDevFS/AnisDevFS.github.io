@@ -1,16 +1,91 @@
-.myp{
-    color: red;
+body {
+    background: linear-gradient(270deg, #255069, #35cfd7);
+    background-size: 400% 400%;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
 }
-.nav-link{
+h2{
+    color: whitesmoke;
+}
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.nav-link {
     color: whitesmoke !important;
 }
-.navbar-brand{
+
+.navbar-brand {
     color: whitesmoke !important;
 }
-/* .carousel-item>img{
-   
-} */
-.carousel-caption>h5, p{
+
+.carousel-caption>h5, .carousel-caption>p {
     transform: translateY(-395px);
     font-size: xx-large;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.card {
+    margin: 5px;
+}
+
+#myBtn {
+    display: block;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: red;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}
+li{
+    list-style-type: none;
 }
