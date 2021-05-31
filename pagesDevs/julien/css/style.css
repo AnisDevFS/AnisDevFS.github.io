@@ -153,9 +153,7 @@
         }
 
         @media (max-width:625px) {
-            .Navbar {
-                display: none;
-            }
+            .Navbar-btn {display: none!important;}
         }
 
         @media (min-width:937.5px) {
