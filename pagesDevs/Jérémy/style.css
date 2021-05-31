@@ -145,10 +145,12 @@ body {
   .bar .percentage {
     position: relative;
     font-size: 1em;
-    background: tomato;
+    background: rgb(233, 9, 9);
     height: 0.5em;
     border-radius: 0.5em;
   }
+
+
 
   
 
