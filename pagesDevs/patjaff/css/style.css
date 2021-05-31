@@ -5,7 +5,9 @@ body {
     -moz-animation: AnimationName 30s ease infinite;
     animation: AnimationName 30s ease infinite;
 }
-
+h2{
+    color: whitesmoke;
+}
 @-webkit-keyframes AnimationName {
     0% {
         background-position: 0% 50%
@@ -83,4 +85,7 @@ body {
 #myBtn:hover {
     background-color: #555;
     /* Add a dark-grey background on hover */
+}
+li{
+    list-style-type: none;
 }
