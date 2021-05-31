@@ -45,3 +45,12 @@
 .contact h3 {
     text-align: center; 
 }
+.icone img {
+    float: left;
+    width: 30px;
+    
+}
+.icone-car img {
+    float: left;
+    width: 50px;
+  }
