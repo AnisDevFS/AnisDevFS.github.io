@@ -19,13 +19,29 @@
     margin-bottom: 150px;
 }
 .experiences {
-    width: 1000px;
-    margin-left: 150px;
-    margin-bottom: 150px;
+   width: 1000px;
+   margin-left: 150px;
+   margin-bottom: 150px;
 }
 .experiences h2 {
     text-align: center;  
 }
 .liste-experiences {
-    float: left;
+    margin-left: 200px;
+}
+
+.contact {
+    width: 1000px;
+    margin-left: 150px;
+    margin-bottom: 150px;
+    
+}
+.contact h2 {
+    text-align: center; 
+}
+.liste-contact {
+    margin-left: 200px;
+}
+.contact h3 {
+    text-align: center; 
 }
