@@ -7,6 +7,10 @@
 .navbar-brand{
     color: whitesmoke !important;
 }
-img{
-    height: 40%;
+/* .carousel-item>img{
+   
+} */
+.carousel-caption>h5, p{
+    transform: translateY(-395px);
+    font-size: xx-large;
 }
