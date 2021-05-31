@@ -1,0 +1,103 @@
+/* GENERAL */
+body {
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+    /* margin: 0; */
+    background-image: url(img/wood.webp);
+    background-size: cover;
+    background-position-y: 15px;
+}
+@font-face {
+    font-family: "mypolice";
+    src: url(Qualy\ Bold.ttf);
+}
+@font-face {
+    font-family: "police_nom";
+    src: url(PrequelDemo-ShadowItalic.otf);
+}
+/* PREMIERE DIV FLEX */
+#flex {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-content: stretch;
+}
+#flex div {
+    text-align: center;
+    width: 50%;
+}
+img {
+    width: 100%;
+}
+/* DIV INTERNE A DIV1 */
+#flex2 {
+    display: flex;
+    justify-content: center;
+}
+#flex2 div {
+    margin: 0;
+}
+li {
+    line-height: 35px;
+    list-style-position: inside;
+    text-align: start;
+    list-style-type: circle;
+}
+li.titre {
+    list-style-type: none;
+    text-align: center;
+}
+#bordure {
+    border-right: 2px solid black;
+}
+/* DEUXIEME DIV FLEX */
+#flex3 {
+    display: flex;
+    justify-content: space-around;
+}
+#flex3 div {
+    text-align: center;
+    width: 50%;
+}
+#flex3 div:first-child {
+    height: 378px;
+}
+#flex3 li {
+    line-height: 30px;
+}
+/* DERNIERE DIV FLEX */
+#flex4 {
+    display: flex;
+    justify-content: center;
+}
+#flex4 div {
+    width: 50%;
+    text-align: center;
+}
+button {
+    border: none;
+    background-color: rgb(49, 71, 190);
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+button:hover {
+    background-color: rgb(25, 55, 223);
+}
+address {
+    margin-top: 20%;
+    font-size: 2em;
+    font-style: normal;
+}
+h2, h3 {
+    font-family: "mypolice";
+}
+h1 {
+    font-family: "police_nom";
+    text-align: center;
+    font-size: 2em;
+}

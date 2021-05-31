@@ -1,0 +1,16 @@
+.myp{
+    color: red;
+}
+.nav-link{
+    color: whitesmoke !important;
+}
+.navbar-brand{
+    color: whitesmoke !important;
+}
+/* .carousel-item>img{
+   
+} */
+.carousel-caption>h5, p{
+    transform: translateY(-395px);
+    font-size: xx-large;
+}

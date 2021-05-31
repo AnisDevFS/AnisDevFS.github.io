@@ -1,0 +1,49 @@
+body {
+    font-family: monospace;
+    font-size: large;
+    font-weight: bold;
+    background-image: url(img/wood.webp);
+    background-size: cover;
+    background-position-y: 50px;
+}
+@font-face {
+    font-family: "mypolice";
+    src: url(Qualy\ Bold.ttf);
+}
+#flex {
+    margin: 7% 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#flex div {
+    text-align: center;
+    width: 50%;
+}
+img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+button {
+    border: none;
+    background-color: rgb(49, 71, 190);
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+button:hover {
+    background-color: rgb(25, 55, 223);
+}
+p {
+    /* padding: 20px; */
+    margin: 20px;
+    line-height: 30px;
+}
+h2 {
+    font-family: "mypolice";
+    font-size: 3em;
+}

@@ -2,6 +2,9 @@
     font-family: "Groupo";
     src: url(fonts/Gruppo-Regular.ttf);
 }
+@keyframes animate {
+    from{width:58%;}
+}
 
 .html {width: 90%; background-color: #04AA6D;} 
 .css {width: 80%; background-color: #2196F3;} 
@@ -45,3 +48,4 @@
 #one ul {
     height: 400px;
 }
+
