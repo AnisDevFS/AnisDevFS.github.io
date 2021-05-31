@@ -16,6 +16,7 @@
 
         html {
             font-size: 82.5%;
+
             box-sizing: border-box;
         }
 
@@ -42,7 +43,9 @@
 
         body {
             margin: 0;
+
             background: transparent radial-gradient(at calc(var(--mouse-x, 0) * 100%) calc(var(--mouse-y, 0) * 100%), #fff, #00000042) no-repeat 0 0;
+
         }
 
         img {
@@ -172,6 +175,7 @@
         @media (max-width:625px) {
             .Navbar-btn {
                 display: none!important;
+
             }
         }
 
@@ -263,6 +267,7 @@
             position: relative;
             margin-right: 3.4rem
         }
+
 
         .l-Section-title, .l-Section-content {
             margin-top: 3.2rem;
@@ -391,6 +396,7 @@
             font-weight: bold
         }
 
+
         svg {
             height: 50px;
             filter: blur(0px);
@@ -401,3 +407,4 @@
             filter: blur(3px) drop-shadow(0px 3px 0 #67c8d956);
             transform: scale(1.1);
         }
+
