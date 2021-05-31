@@ -1,0 +1,36 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#flex {
+    margin: 7% 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#flex div {
+    text-align: center;
+    width: 50%;
+}
+img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+button {
+    border: none;
+    background-color: rgb(49, 71, 190);
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+button:hover {
+    background-color: rgb(25, 55, 223);
+}
+p {
+    /* padding: 20px; */
+    margin: 20px;
+    line-height: 30px;
+}
