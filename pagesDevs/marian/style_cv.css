@@ -2,6 +2,8 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
+    background-image: url(img/wood.webp);
+    background-size: cover;
 }
 /* PREMIERE DIV FLEX */
 #flex {
@@ -51,4 +53,30 @@ li.titre {
 }
 #flex3 li {
     line-height: 30px;
+}
+/* DERNIERE DIV FLEX */
+#flex4 {
+    display: flex;
+    justify-content: center;
+}
+#flex4 div {
+    width: 50%;
+    text-align: center;
+}
+button {
+    border: none;
+    background-color: rgb(49, 71, 190);
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+button:hover {
+    background-color: rgb(25, 55, 223);
+}
+address {
+    margin-top: 25%;
+    font-size: 2em;
 }
