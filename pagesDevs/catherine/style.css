@@ -16,6 +16,16 @@
     text-align: center;
     width: 1000px;
     margin-left: 150px;
+    margin-bottom: 150px;
 }
-
-
+.experiences {
+    width: 1000px;
+    margin-left: 150px;
+    margin-bottom: 150px;
+}
+.experiences h2 {
+    text-align: center;  
+}
+.liste-experiences {
+    float: left;
+}
